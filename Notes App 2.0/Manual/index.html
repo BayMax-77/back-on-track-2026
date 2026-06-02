@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes-Manager 2.0</title>
+    <link rel="stylesheet" href="aside.css">
+    <style>
+        body{
+            display: flex;
+            padding-top: 25px;
+        }
+
+
+        main{
+            background-color: ghostwhite;
+            height: 1000px; width: 1500px;
+            padding: 25px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            gap: 25px;
+        }
+
+        main input{
+            width: 1250px;
+            border: 0;
+            border-bottom: solid black 2px;
+            padding: 2px;
+            font-size: larger;
+            font-weight: 500;
+            
+        }
+
+        main textarea{
+            width: 1250px; height: 700px;
+            padding: 15px 10px;
+            box-sizing: border-box;
+            font-size: 22px;
+            font-family: 'comics sans ms', 'Times New Roman','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+
+    </style>
+</head>
+<body>
+    <aside>
+        <div id="hamburger">
+            <span class="h-line"></span>
+            <span class="h-line"></span>
+            <span class="h-line"></span>
+        </div>
+        <div id="aside-content">
+            <div class="note-card">
+                <h3>Titulo dinamico...</h3>
+                <hr>
+                <p>texto dinamico...</p>
+            </div>
+            <button>Add a New Note to The Project</button>
+        </div>
+    </aside>
+    <main>
+        <input type="text" placeholder="Title...">
+        <textarea name="" id="" cols="150" rows="25"></textarea>
+    </main>
+</body>
+</html>
